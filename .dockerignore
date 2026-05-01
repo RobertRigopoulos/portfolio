@@ -1,0 +1,23 @@
+# Files and folders not needed inside the Docker image.
+# Keeps the build faster and the image smaller.
+
+.git
+.github
+.idea
+.vscode
+.zed
+node_modules
+vendor
+.env
+.env.example
+.env.backup
+.env.production
+.phpunit.cache
+.phpunit.result.cache
+*.log
+storage/logs/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+README.md
+PROJECT_NOTES.md
